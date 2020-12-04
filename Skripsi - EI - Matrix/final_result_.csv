@@ -1,0 +1,43 @@
+,dataset,alg,hyperparam,train_gmeans,train_recall,train_pf,dev_gmeans,dev_recall,dev_pf,test_gmeans,test_recall,test_pf
+0,KC1,NN_SMOTE,"{'Dropout': 0.6, 'Hidden Layer': 1, 'Learning Rate': 0.001, 'Neurons': 21, 'Neighbors': 2, 'Sampling': 1.0}",72.3,75.3,30.57,73.96,81.79,33.13,71.44,73.62,30.68
+14,KC1,RF_SMOTE,"{'Neighbors': 3, 'Sampling': 0.96, 'Max Depth': 7, 'N Estimator': 24, 'Max Leaf Nodes': 33, 'Max Features': 0.4, 'Min Samples Leaf': 15, 'Min Samples Split': 12}",87.36,90.27,15.45,74.22,67.35,18.21,70.22,60.43,18.4
+21,KC1,DT_SMOTE,"{'Neighbors': 1, 'Sampling': 0.98, 'Max Depth': 4}",78.33,88.2,30.43,74.58,80.41,30.83,67.68,68.4,33.03
+28,KC1,NB_SMOTE,"{'Neighbors': 7, 'Sampling': 1.0, 'Var Smoothing': 0.0}",59.58,39.57,10.28,63.01,44.67,11.12,60.71,41.1,10.32
+35,KC1,LR_SMOTE,"{'Neighbors': 4, 'Sampling': 0.92, 'C': 9.55, 'Max Iter': 155}",71.64,67.79,24.29,73.31,73.54,26.91,71.03,67.18,24.9
+42,KC1,KNN_SMOTE,"{'Neighbors': 4, 'Sampling': 0.98, 'n Neighbors': 8, 'leaf_size': 51, 'Leaf Size': 51.05616323457703}",88.26,92.87,16.13,72.22,67.35,22.56,68.21,59.51,21.82
+1,KC2,NN_SMOTE,"{'Dropout': 0.1, 'Hidden Layer': 3, 'Learning Rate': 0.01, 'Neurons': 42, 'Neighbors': 5, 'Sampling': 1.0}",88.17,89.57,13.2,84.98,84.44,14.47,81.83,78.5,14.7
+15,KC2,RF_SMOTE,"{'Neighbors': 8, 'Sampling': 0.59, 'Max Depth': 1, 'N Estimator': 37, 'Max Leaf Nodes': 17, 'Max Features': 0.05, 'Min Samples Leaf': 8, 'Min Samples Split': 6}",79.79,73.78,13.71,83.86,82.22,14.47,76.19,67.29,13.73
+22,KC2,DT_SMOTE,"{'Neighbors': 3, 'Sampling': 0.62, 'Max Depth': 2}",79.36,76.31,17.47,82.56,82.22,17.11,77.51,72.9,17.59
+29,KC2,NB_SMOTE,"{'Neighbors': 6, 'Sampling': 1.0, 'Var Smoothing': 0.0}",62.39,41.88,7.06,70.79,53.33,6.05,64.68,44.86,6.75
+36,KC2,LR_SMOTE,"{'Neighbors': 3, 'Sampling': 0.69, 'C': 3.33, 'Max Iter': 149}",75.29,66.93,15.29,83.08,82.22,16.05,76.48,69.16,15.42
+43,KC2,KNN_SMOTE,"{'Neighbors': 4, 'Sampling': 0.98, 'n Neighbors': 8, 'leaf_size': 51, 'Leaf Size': 51.05616323457703}",85.36,88.25,17.44,78.83,76.67,18.95,74.35,71.03,22.17
+2,PC1,NN_SMOTE,"{'Dropout': 0.11, 'Hidden Layer': 3, 'Learning Rate': 0.00764, 'Neurons': 15, 'Neighbors': 10, 'Sampling': 0.86}",90.87,97.29,15.12,85.29,88.71,18,78.95,75.32,17.25
+16,PC1,RF_SMOTE,"{'Neighbors': 5, 'Sampling': 1.0, 'Max Depth': 6, 'N Estimator': 36, 'Max Leaf Nodes': 39, 'Max Features': 1.0, 'Min Samples Leaf': 20, 'Min Samples Split': 19}",90.51,93.67,12.55,79.09,74.19,15.7,72.86,63.64,16.57
+23,PC1,DT_SMOTE,"{'Neighbors': 1, 'Sampling': 1.0, 'Max Depth': 4}",86.28,95.15,21.76,80.23,82.26,21.74,73.66,71.43,24.03
+30,PC1,NB_SMOTE,"{'Neighbors': 8, 'Sampling': 0.32, 'Var Smoothing': 0.16}",53.44,30.9,7.58,56.34,33.87,6.28,54.73,32.47,7.75
+37,PC1,LR_SMOTE,"{'Neighbors': 5, 'Sampling': 1.0, 'C': 10.0, 'Max Iter': 183}",74.21,67.45,18.36,72.66,66.13,20.17,68.9,59.74,20.54
+44,PC1,KNN_SMOTE,"{'Neighbors': 9, 'Sampling': 1.0, 'n Neighbors': 10, 'leaf_size': 16, 'Leaf Size': 16.68234706780244}",89.86,97.42,17.12,82.8,85.48,19.81,76.79,74.03,20.35
+3,PC3,NN_SMOTE,"{'Dropout': 0.2, 'Hidden Layer': 3, 'Learning Rate': 0.00858, 'Neurons': 12, 'Neighbors': 8, 'Sampling': 0.77}",85.93,93.83,21.3,77.48,81.25,26.11,80.57,84.33,23.01
+17,PC3,RF_SMOTE,"{'Neighbors': 3, 'Sampling': 0.81, 'Max Depth': 3, 'N Estimator': 143, 'Max Leaf Nodes': 34, 'Max Features': 0.81, 'Min Samples Leaf': 4, 'Min Samples Split': 4}",85.78,92.98,20.86,74.43,74.11,25.25,74.62,73.13,23.86
+24,PC3,DT_SMOTE,"{'Neighbors': 1, 'Sampling': 0.66, 'Max Depth': 3}",84.12,91.07,22.31,73.82,75.89,28.2,75.75,76.87,25.34
+31,PC3,NB_SMOTE,"{'Neighbors': 9, 'Sampling': 0.82, 'Var Smoothing': 0.39}",75.78,88.1,34.81,71.62,82.14,37.56,71.24,79.1,35.84
+38,PC3,LR_SMOTE,"{'Neighbors': 3, 'Sampling': 0.83, 'C': 2.74, 'Max Iter': 143}",76.81,75.86,22.22,71.8,69.64,25.99,72.85,69.4,23.54
+45,PC3,KNN_SMOTE,"{'Neighbors': 8, 'Sampling': 0.85, 'n Neighbors': 9, 'leaf_size': 15, 'Leaf Size': 15.087069753230324}",88.38,97.94,20.24,71.61,71.43,28.2,72.67,70.15,24.71
+4,PC4,NN_SMOTE,"{'Dropout': 0.2, 'Hidden Layer': 1, 'Learning Rate': 0.00585, 'Neurons': 8, 'Neighbors': 8, 'Sampling': 1.0}",90.9,96.73,14.57,87.27,89.61,15.01,87.84,90.45,14.69
+18,PC4,RF_SMOTE,"{'Neighbors': 1, 'Sampling': 1.0, 'Max Depth': 5, 'N Estimator': 142, 'Max Leaf Nodes': 23, 'Max Features': 0.91, 'Min Samples Leaf': 15, 'Min Samples Split': 14}",92.87,99.19,13.05,84.94,86.36,16.47,85.76,87.08,15.55
+25,PC4,DT_SMOTE,"{'Neighbors': 2, 'Sampling': 0.63, 'Max Depth': 4}",91.06,94.35,12.11,82.74,81.17,15.65,82.8,79.78,14.06
+32,PC4,NB_SMOTE,"{'Neighbors': 5, 'Sampling': 0.7, 'Var Smoothing': 0.05}",75.5,73.85,22.81,75.83,75.32,23.66,74.94,72.47,22.5
+39,PC4,LR_SMOTE,"{'Neighbors': 5, 'Sampling': 1.0, 'C': 9.44, 'Max Iter': 155}",86.19,90.71,18.11,84.61,86.36,17.11,81.75,82.02,18.52
+46,PC4,KNN_SMOTE,"{'Neighbors': 9, 'Sampling': 0.83, 'n Neighbors': 8, 'leaf_size': 23, 'Leaf Size': 23.239140357459718}",90.63,98.49,16.61,80.87,83.77,21.93,79.78,80.9,21.33
+5,CM1,NN_SMOTE,"{'Dropout': 0.6, 'Hidden Layer': 3, 'Learning Rate': 0.01, 'Neurons': 42, 'Neighbors': 9, 'Sampling': 1.0}",82.29,92.69,26.95,78.5,85,27.5,76.02,79.59,27.39
+19,CM1,RF_SMOTE,"{'Neighbors': 2, 'Sampling': 0.8, 'Max Depth': 1, 'N Estimator': 77, 'Max Leaf Nodes': 45, 'Max Features': 0.4, 'Min Samples Leaf': 1, 'Min Samples Split': 13}",76.72,81.58,27.86,71.66,72.5,29.17,69.17,67.35,28.95
+26,CM1,DT_SMOTE,"{'Neighbors': 1, 'Sampling': 0.76, 'Max Depth': 3}",84.01,93.49,24.51,67.96,62.5,26.11,64.95,59.18,28.73
+33,CM1,NB_SMOTE,"{'Neighbors': 9, 'Sampling': 0.52, 'Var Smoothing': 0.22}",56.81,38.62,16.43,66.68,55,19.17,58.31,40.82,16.7
+40,CM1,LR_SMOTE,"{'Neighbors': 6, 'Sampling': 0.83, 'C': 9.92, 'Max Iter': 184}",78.72,75.55,17.97,77.21,72.5,17.78,72.01,63.27,18.04
+47,CM1,KNN_SMOTE,"{'Neighbors': 6, 'Sampling': 1.0, 'n Neighbors': 9, 'leaf_size': 95, 'Leaf Size': 95.30814844571933}",83.97,99.16,28.9,68.94,72.5,34.44,66.17,65.31,32.96
+6,JM1,NN_SMOTE,"{'Dropout': 0.1, 'Hidden Layer': 1, 'Learning Rate': 0.01, 'Neurons': 50, 'Neighbors': 8, 'Sampling': 1.0}",69.11,70.04,31.8,65.64,64.26,32.95,66.53,65.05,31.96
+20,JM1,RF_SMOTE,"{'Neighbors': 8, 'Sampling': 0.97, 'Max Depth': 8, 'N Estimator': 104, 'Max Leaf Nodes': 5, 'Max Features': 0.85, 'Min Samples Leaf': 2, 'Min Samples Split': 8}",72.08,71.55,27.39,64.79,58.11,27.76,66.01,60.1,27.5
+27,JM1,DT_SMOTE,"{'Neighbors': 9, 'Sampling': 0.96, 'Max Depth': 1}",66.2,61.39,28.61,64.96,59.21,28.72,66.01,61.1,28.69
+34,JM1,NB_SMOTE,"{'Neighbors': 5, 'Sampling': 1.0, 'Var Smoothing': 0.0}",44.97,21.48,5.85,47.01,23.58,6.27,46.35,22.82,5.88
+41,JM1,LR_SMOTE,"{'Neighbors': 5, 'Sampling': 1.0, 'C': 9.44, 'Max Iter': 155}",65.68,59.06,26.95,64.97,58,27.23,65.53,58.82,26.99
+48,JM1,KNN_SMOTE,"{'Neighbors': 10, 'Sampling': 1.0, 'n Neighbors': 10, 'leaf_size': 15, 'Leaf Size': 15.215440637799505}",81.58,87.29,23.76,64.36,58.47,29.16,64.3,58.2,28.97
