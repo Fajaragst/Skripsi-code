@@ -65,6 +65,7 @@ class BaseSMOTE(BaseOverSampler):
     def _generate_samples(self, X, nn_data, nn_num, rows, cols, steps):
         
         diffs = nn_data[nn_num[rows, cols]] - X[rows]
+        print("Steps", steps)
         print("rows", rows)
         print("cols", cols)
         print("diffs", diffs)

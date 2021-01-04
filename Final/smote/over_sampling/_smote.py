@@ -107,6 +107,8 @@ class BaseSMOTE(BaseOverSampler):
 
         X_new = self._generate_samples(X, nn_data, nn_num, rows, cols, steps)
         y_new = np.full(n_samples, fill_value=y_type, dtype=y_dtype)
+        
+#         print(X_new)
         return X_new, y_new
 
     def _generate_samples(self, X, nn_data, nn_num, rows, cols, steps):
@@ -741,7 +743,13 @@ SMOTE # doctest: +NORMALIZE_WHITESPACE
         else:
             X_resampled = np.vstack(X_resampled)
         y_resampled = np.hstack(y_resampled)
-
+        
+        from IPython.display import display, HTML
+        import pandas as pd
+        pd.set_option("display.max_rows", None, "display.max_columns", None)
+        new = pd.DataFrame(X_new)
+        display(new)
+        
         return X_resampled, y_resampled
 
 
